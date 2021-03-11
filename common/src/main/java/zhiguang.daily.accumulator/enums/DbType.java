@@ -1,4 +1,4 @@
-package zhiguang.daily.accumulator;
+package zhiguang.daily.accumulator.enums;
 
 
 import lombok.AllArgsConstructor;

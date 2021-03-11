@@ -1,4 +1,4 @@
-package zhiguang.daily.accumulator.controller;
+package zhiguang.daily.accumulator.canal;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
@@ -18,7 +18,7 @@ public class MyScheduler {
         Trigger trigger = TriggerBuilder.newTrigger().withIdentity("trigger1", "triggerGroup1")
                 .startNow()//立即生效
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                        .withIntervalInSeconds(3)//每隔3s执行一次
+                        .withIntervalInSeconds(1)//每隔3s执行一次
                         .repeatForever()).build();//一直执行
 
         //4、执行

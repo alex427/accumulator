@@ -1,4 +1,4 @@
-package zhiguang.daily.accumulator.controller;
+package zhiguang.daily.accumulator.canal;
 
 
 import org.quartz.Job;

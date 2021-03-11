@@ -1,7 +1,7 @@
 package zhiguang.daily.accumulator.checkpoint;
 
 import lombok.extern.slf4j.Slf4j;
-import zhiguang.daily.accumulator.JdbcUtil;
+import zhiguang.daily.accumulator.utils.JdbcUtil;
 
 import java.sql.*;
 import java.util.ArrayList;

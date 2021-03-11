@@ -1,4 +1,4 @@
-package zhiguang.daily.accumulator;
+package zhiguang.daily.accumulator.utils;
 
 
 import com.jcraft.jsch.*;

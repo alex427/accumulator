@@ -1,7 +1,8 @@
-package zhiguang.daily.accumulator;
+package zhiguang.daily.accumulator.utils;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import zhiguang.daily.accumulator.enums.DbType;
 
 import java.sql.*;
 import java.util.ArrayList;
