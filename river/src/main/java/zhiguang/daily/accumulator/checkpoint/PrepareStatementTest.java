@@ -1,7 +1,7 @@
 package zhiguang.daily.accumulator.checkpoint;
 
 import lombok.extern.slf4j.Slf4j;
-import zhiguang.dedication.field.utils.JdbcUtils;
+import zhiguang.daily.accumulator.JdbcUtil;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -51,7 +51,7 @@ public class PrepareStatementTest {
             //return data;
         } finally {
             //释放资源
-            JdbcUtils.closeResource2(resultSet, pstmt, conn);
+            JdbcUtil.closeResource2(resultSet, pstmt, conn);
         }
 
 
