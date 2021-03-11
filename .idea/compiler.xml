@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="brook" />
+        <module name="common" />
         <module name="river" />
         <module name="running" />
         <module name="water" />
