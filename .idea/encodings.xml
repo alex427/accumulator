@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/running" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/water" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wellspring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wellspring/src/main/java/zhiguang/daily/accumulator/mulitithread/master_workers/Master.java" charset="GBK" />
   </component>
 </project>
